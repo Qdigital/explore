@@ -4,7 +4,7 @@ group :test do
   gem "fastimage"
   gem "minitest"
   gem "rake"
-  gem "rubocop"
-  gem "rubocop-performance"
+  gem "rubocop", ">= 0.80.0"
+  gem "rubocop-performance", ">= 1.5.2"
   gem "safe_yaml"
 end
